@@ -432,5 +432,17 @@ textarea {
   justify-content: center;
 }
 #section-1 > div svg {
-  width: 100%;
+  width: 50%;
+}
+#section-1 > div #tagline {
+  opacity: 0;
+}
+#section-1 > div #Republic-Bank {
+  opacity: 0;
+}
+#section-1 > div #days {
+  opacity: 0;
+}
+#section-1 > div #door {
+  opacity: 0;
 }

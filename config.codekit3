@@ -1706,7 +1706,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "gsap, DrawSVGPlugin, GSDevTools",
+	"jsCheckerReservedNamesString": "gsap, DrawSVGPlugin, GSDevTools, MorphSVGPlugin",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
