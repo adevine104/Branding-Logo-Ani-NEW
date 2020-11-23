@@ -46,27 +46,63 @@ export function IntroAnimation() {
             scaleY:0
         }, "play3");
 
+        tl.to("#RB", {
+            transformOrigin: "center", 
+            duration: 1.25,
+            scale:21
+        }, "play3-1");
+
+        tl.to("#days", {
+            transformOrigin: "center", 
+            duration: .25,
+            x:-30
+        }, "play3");
+
+        tl.to("#days", {
+            transformOrigin: "center", 
+            duration: 3.25,
+            opacity: 1
+        }, "play3-1");
+
+        tl.to("#days", {
+            transformOrigin: "center", 
+            duration: 1.25,
+            scale:0,
+            opacity: 0
+        }, "play3-2");
+
+        tl.to("#RB", {
+            transformOrigin: "center", 
+            duration: 1.25,
+            scale:1
+        }, "play3-2");
+
         // tl.to("#R",{duration:1, morphSVG:"#door"},"play3")
 
         tl.to("#Republic-Bank", {
-            duration: 1.5,
+            duration: .5,
+            y:100
+        }, "play3-1");
+
+        tl.to("#Republic-Bank", {
+            duration: 2.5,
             opacity:1
-        }, "play4");
+        }, "play3-2");
         
         tl.to("#tagline", {
-            duration: 1.5,
-            opacity:1
-        }, "play4");
+            duration: .5,
+            y:128
+        }, "play3-1");
         
-        tl.from("#tagline", {
-            duration: 1.5,
-            x: 100
-        }, "play4");
+        tl.to("#tagline", {
+            duration: 2.5,
+            opacity:1
+        }, "play3-2");
         
         tl.to("#R", {
-            duration: 1.5,
+            duration: 2.5,
             fill: "rgb(239, 85, 86)"
-        }, "play4");
+        }, "play3-2");
 
     return tl;
 }

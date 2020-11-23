@@ -421,7 +421,7 @@ textarea {
 ============= */
 #section-1 {
   display: grid;
-  grid-template-columns: auto 70% auto;
+  grid-template-columns: auto 100% auto;
   grid-template-areas: ". motion .";
 }
 #section-1 > div {
