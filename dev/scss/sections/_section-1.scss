@@ -7,10 +7,13 @@
     display: grid;
     grid-template-columns: auto 100% auto;
     grid-template-areas: ". motion .";
+
     
     >div{
         grid-area: motion;
         height: 100vh;
+        width: 250vh;
+        margin-left: -250px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -19,9 +22,9 @@
             width: 50%;
         }
 
-        #tagline{
-            opacity: 0;
-        }
+        // #tagline{
+        //     opacity: 0;
+        // }
 
         #Republic-Bank{
             opacity: 0;
@@ -31,7 +34,19 @@
             opacity: 0;
         }
 
-        #door{
+        #door-1{
+            opacity: 0;
+        }
+
+        #door-2{
+            opacity: 0;
+        }
+
+        #R-2{
+            opacity: 0;
+        }
+
+        #white-cover{
             opacity: 0;
         }
     }

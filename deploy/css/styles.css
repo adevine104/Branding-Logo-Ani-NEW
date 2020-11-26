@@ -427,6 +427,8 @@ textarea {
 #section-1 > div {
   grid-area: motion;
   height: 100vh;
+  width: 250vh;
+  margin-left: -250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -434,15 +436,21 @@ textarea {
 #section-1 > div svg {
   width: 50%;
 }
-#section-1 > div #tagline {
-  opacity: 0;
-}
 #section-1 > div #Republic-Bank {
   opacity: 0;
 }
 #section-1 > div #days {
   opacity: 0;
 }
-#section-1 > div #door {
+#section-1 > div #door-1 {
+  opacity: 0;
+}
+#section-1 > div #door-2 {
+  opacity: 0;
+}
+#section-1 > div #R-2 {
+  opacity: 0;
+}
+#section-1 > div #white-cover {
   opacity: 0;
 }

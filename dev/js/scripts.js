@@ -5,11 +5,13 @@
 import { gsap } from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
 
-import {IntroAnimation} from "./intro.js";
+import {introAnimation} from "./intro.js";
+import {part2Animation} from "./intro.js";
 
 gsap.registerPlugin(GSDevTools);
 
 const mainTl = gsap.timeline();
-mainTl.add(IntroAnimation());
+mainTl.add(introAnimation());
+mainTl.add(part2Animation());
 
 GSDevTools.create();
