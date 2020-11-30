@@ -4,7 +4,7 @@ import {MorphSVGPlugin} from "gsap/MorphSVGPlugin";
 
 gsap.registerPlugin(MorphSVGPlugin);
 
-var RBSpeed = .8;
+var RBSpeed = 1.2;
 
 var tl = gsap.timeline({ease: "power2.out"});
 var tl2 = gsap.timeline({ease: "power2.out"});
@@ -17,7 +17,7 @@ export function introAnimation() {
         
         tl.from(".Logo", {
             duration: RBSpeed,
-            x: 250
+            x: 750
         }, "play");
         
         tl.to("#B-1", {
@@ -91,7 +91,7 @@ export function part2Animation() {
         opacity: 1
     }, "play3-4");
 
-    tl2.to("#door-2",{duration:1, morphSVG:"#R-2"},"play3-4")
+    tl2.to("#door-2",{duration:.5, morphSVG:"#R-2"},"play3-4")
 
 
     tl2.to("#Republic-Bank", {
